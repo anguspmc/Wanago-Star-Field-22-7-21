@@ -5,3 +5,20 @@ body{
     background: black;
     overflow: hidden;
 }
+button{
+    margin: 0;
+    size: 10000px;
+    border: 0px;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    background: #222;
+    color: whitesmoke;
+}
+button:hover{
+    background: #333;
+}
